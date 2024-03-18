@@ -1,0 +1,544 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "18514C863AB592D3"
+	icon: {
+		Count: 1b
+		id: "redstone_arsenal:flux_wrench"
+		tag: { }
+	}
+	id: "5F5F943CAC6AE7AE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:block/oak_sapling"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ars_nouveau:textures/items/summon_focus.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "kubejs:textures/item/questbook/titlecelestemountain.png"
+			rotation: 0.0d
+			width: 8.695652173913043d
+			x: 7.0d
+			y: -4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"各位好！"
+				""
+				"我们欢迎您游玩我新的整合包，&aStacia 2: Expert&r！这个整合包将彻底改变您的游戏体验，为您提供一个更具挑战性的精彩世界"
+				""
+				"我们的第一个任务是欢迎您来到这个新世界，开始您的冒险之旅。探索世界，收集资源，创造新的技术和机器，帮助你在这个充满挑战的环境中茁壮成长"
+				""
+				"准备好将你的技能推向极限并找到新的游戏方式！"
+			]
+			icon: "minecraft:oak_log"
+			id: "7227D94BD940B007"
+			rewards: [
+				{
+					id: "37ABE0EFCC670545"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&a欢迎！~"
+			tasks: [
+				{
+					id: "4B28E422262C9C36"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "任意原木"
+					type: "item"
+				}
+			]
+			title: "这是你的第一个任务！"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7227D94BD940B007"]
+			description: [
+				"经典的老式工作台。会出什么问题呢？"
+				""
+				"{image:minecraft:block/crafting_table_top width:40 height:40 align:1}"
+
+			]
+			id: "5C1CB0C836502ABB"
+			rewards: [
+				{
+					id: "4B2ACE0896F22CD8"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+			]
+			subtitle: "工作台"
+			tasks: [
+				{
+					id: "46A79E09B86E4B5F"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C1CB0C836502ABB"]
+			description: [
+				"&a寂静装备工具&f 包括镐、铲、斧、锄、剑和其他装备 。每种工具都有自己独特的属性，如耐久度、采矿速度和伤害，这些属性可以通过强化来提高"
+				""
+				"寂静装备工具的一大特点是模块化。玩家可以将不同的部件和组件组合起来，创造出自己的具有独特能力和属性的定制工具。例如，你可以在镐上添加一个 &d精准采集&f，让它可以在不破坏某些方块的情况下开采它们；或者在剑上添加一个 %d掠夺&f，增加从怪物身上获得稀有掉落物的几率"
+				""
+			]
+			id: "4C498DCB44225078"
+			subtitle: "时髦的战斗工具"
+			tasks: [
+				{
+					id: "54FC59CA380F375C"
+					item: "silentgear:pickaxe_template"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C498DCB44225078"]
+			icon: "kubejs:stone_mechanism"
+			id: "1FD3FD5D06E94E1E"
+			tasks: [
+				{
+					id: "01E908DC84CAFDAD"
+					item: "kubejs:stone_nugget"
+					type: "item"
+				}
+				{
+					id: "25727804AE5E7616"
+					item: "kubejs:stone_mechanism"
+					type: "item"
+				}
+			]
+			title: "石头构件"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FD3FD5D06E94E1E"]
+			id: "0C6ED0C9C20182A7"
+			shape: "hexagon"
+			subtitle: "熔炼枢纽"
+			tasks: [
+				{
+					id: "49B066DBF781D568"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C498DCB44225078"]
+			id: "33C4C718B0F6183A"
+			rewards: [
+				{
+					id: "38A1A970D795935E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6AF0564393DAFD45"
+					item: {
+						Count: 1b
+						id: "silentgear:crude_repair_kit"
+						tag: {
+							Storage: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			description: ["&a安山合金：&r机械动力mod的基本材料，安山岩与其他材料混合形成的。这种坚固的合金是制作先进机械和工具的必备材料，可增强您的科技"]
+			id: "4A0573513D707B9A"
+			subtitle: "与安山岩携手共进！"
+			tasks: [
+				{
+					count: 8L
+					id: "59315536EBF57938"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "合金冶炼"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31F037A6B60539A9"]
+			id: "1B2D930EBB3F2A94"
+			tasks: [
+				{
+					id: "7AD687FB122F3C40"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A0573513D707B9A"]
+			id: "593AFCB9C597115E"
+			tasks: [
+				{
+					id: "5815DE85FBD7F5DC"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "3DC6ECE4D8027544"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1B2D930EBB3F2A94"
+				"593AFCB9C597115E"
+				"4B3FD7D0B88EC3EC"
+			]
+			id: "6430C8C86DF9471C"
+			rewards: [{
+				count: 8
+				id: "563337597DB6AEA6"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "282F9A87C9FB198A"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			x: 9.6d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["4A0573513D707B9A"]
+			description: [
+				"在地下找到一些奥术矿石"
+				""
+				"&a最大Y =&r 96"
+				"&a最大生成&r = 32"
+				"&a最小Y =&r -32"
+			]
+			hide_dependency_lines: true
+			icon: "kubejs:raw_arcane"
+			id: "4B3FD7D0B88EC3EC"
+			rewards: [{
+				id: "7B85B71AF7640C3E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Find Some Arcane Ore"
+			tasks: [{
+				id: "7CDE6CAE7DB0753C"
+				item: "kubejs:raw_arcane"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0CEC668B34B4B80D"
+				"6430C8C86DF9471C"
+			]
+			id: "1E73A2A27BFD3B89"
+			tasks: [
+				{
+					id: "16E4D92EB3810269"
+					item: "ars_nouveau:sourcestone"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A3744132E81B8B1"]
+			description: [
+				"&a植物魔法是一个科技mod&f：这一次，与你习惯的做法不同，你必须在世界中制作白雏菊，而不是花药台中"
+				""
+				"&a此外&f：此任务可解锁 &d植物魔法&r 章节"
+			]
+			id: "0CEC668B34B4B80D"
+			rewards: [
+				{
+					id: "6495108388B18D0A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "176C3D4C3EFCF378"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 0.8d
+			subtitle: "纯净的魔法花"
+			tasks: [
+				{
+					id: "27E7BB9C9686B2BC"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D0D60B6D73528FE"]
+			id: "1DBE71926E682A2E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "534DF1194DD5B74B"
+					item: "ftbic:machine_block"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E73A2A27BFD3B89"]
+			id: "1C71DD2B96CD3ACE"
+			tasks: [
+				{
+					id: "109DDC39120AF843"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E73A2A27BFD3B89"]
+			id: "165C7294DC3D40E2"
+			tasks: [
+				{
+					id: "31D90D904D65360E"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E73A2A27BFD3B89"]
+			id: "41A5A3AF68A139E1"
+			tasks: [
+				{
+					id: "436F82CBFDC3C8D2"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41A5A3AF68A139E1"
+				"165C7294DC3D40E2"
+				"1C71DD2B96CD3ACE"
+			]
+			icon: "ftbic:electronic_circuit"
+			id: "2D0D60B6D73528FE"
+			rewards: [{
+				id: "17C0DF9F21AC3998"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "630498521801CAC0"
+					item: "ftbic:electronic_circuit"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			icon: "botania:white_mystical_flower"
+			id: "6A3744132E81B8B1"
+			rewards: [
+				{
+					count: 16
+					id: "60FE1E2CB636BC3A"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			size: 0.8d
+			tasks: [
+				{
+					id: "484026C0C80F7222"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:petals"
+						}
+					}
+					title: "任意花瓣"
+					type: "item"
+				}
+			]
+			title: "收集任意花瓣！"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"你正在使用&cBETA&r版本"
+				"&c任务书还未完成&r，有一些任务页面缺失或未完成"
+				"任务书中的不足将在即将到来的更新中得到解决。请务必定期安装更新"
+			]
+			id: "1FD1A2855411987C"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "读我"
+			tasks: [
+				{
+					id: "7319F345BA36780E"
+					title: "您正处于 BETA 阶段！"
+					type: "checkmark"
+				}
+			]
+			title: "您正处于 BETA 阶段！"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			icon: "minecraft:glass"
+			id: "269171EF2C689894"
+			rewards: [{
+				count: 32
+				id: "75CE59A5F42AFAF2"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "批量制作！"
+			tasks: [
+				{
+					id: "17137661C85F73FF"
+					item: "compressium:sand_1"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4D14E10718BF46F5"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "大量的玻璃！"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			icon: "thermal:charcoal_block"
+			id: "2718793BD0ED0F43"
+			rewards: [{
+				count: 4
+				id: "425156A4F918ED38"
+				item: "thermal:charcoal_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "批量制作！"
+			tasks: [
+				{
+					id: "07F076A89FE2F260"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:compressed/logs"
+						}
+					}
+					title: "Any #forge:compressed/logs"
+					type: "item"
+				}
+				{
+					id: "732BF2C0F362162C"
+					item: "thermal:charcoal_block"
+					type: "item"
+				}
+			]
+			title: "大量的木炭！"
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	title: "游戏开始"
+}

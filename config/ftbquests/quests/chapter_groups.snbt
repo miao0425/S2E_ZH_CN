@@ -1,0 +1,28 @@
+{
+	chapter_groups: [
+		{
+			id: "2B2DBA5ACD7ED6E4"
+			title: "欢迎"
+		}
+		{
+			id: "18514C863AB592D3"
+			title: "开始"
+		}
+		{
+			id: "02FE910EDEFB2C10"
+			title: "系统"
+		}
+		{
+			id: "264B385B6E89D41B"
+			title: "生活"
+		}
+		{
+			id: "27F92AE27DB2D1DE"
+			title: "探索"
+		}
+		{
+			id: "24A49DC675E4A8C0"
+			title: "结束"
+		}
+	]
+}
