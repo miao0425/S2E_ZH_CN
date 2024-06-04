@@ -339,7 +339,7 @@ JEIEvents.hideItems(event => {
 })
 
 ItemEvents.tooltip(event => {
-	//工具提示
+	//Tooltips
 	event.add('exnihilosequentia:birch_sieve', [[Text.of('已禁用。改用橡木筛子').darkRed()]])
 	event.add('exnihilosequentia:acacia_sieve', [[Text.of('已禁用。改用橡木筛子').darkRed()]])
 	event.add('exnihilosequentia:dark_oak_sieve', [[Text.of('已禁用。改用橡木筛子').darkRed()]])
@@ -499,7 +499,7 @@ ItemEvents.tooltip(event => {
 		]
 	)
 
-	//删除工具提示
+	//Removing Tooltips
 	event.addAdvanced('ars_nouveau:source_gem', (item, advanced, text) => {
 		text.remove(1)
 	})

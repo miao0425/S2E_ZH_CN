@@ -207,6 +207,13 @@
 	"#Singularity": "奇点",
 	"item.kubejs.singularity_electric_motor": "电动马达奇点",
 
+	"#Stabilized": "稳定",
+	"item.kubejs.stabilized_jar_of_light": "稳定光之瓶",
+	"item.kubejs.stabilized_belt_of_unstable_gifts": "稳定礼物腰带",
+	"item.kubejs.stabilized_shapers_focus": "稳定方块塑形之核心",
+	"item.kubejs.stabilized_thread_warding": "稳定守护之纤维",
+
+
 	"#Crafting Seeds": "合成种子",
 	"item.kubejs.tier2_crafting_seed": "二级合成种子",
 	"item.kubejs.tier3_crafting_seed": "三级合成种子",
@@ -217,37 +224,29 @@
 	"item.kubejs.redstone_crystal": "红石水晶",
 
 	"#Block": "方块",
+	"block.kubejs.charged_certus_quartz_block": "充能赛特斯石英块",
 	"block.kubejs.reinforced_obsidian": "强化黑曜石",
-
 	"block.kubejs.arcane_ore": "奥术矿石",
 	"block.kubejs.magical_casing": "远古石砖",
 	"block.kubejs.glimmering_livingrock": "微光活石",
 	"block.kubejs.aquamarine_block": "海蓝宝石块",
 	"block.kubejs.machine_frame_simple": "末影钢机器框架",
-
 	"block.kubejs.draconium_block": "§5龙块",
 	"block.kubejs.charged_draconium_block": "§5充能龙块",
 	"block.kubejs.awakened_draconium_block": "§6觉醒龙块",
-
 	"block.kubejs.goldium_block": "黄金水晶块",
 	"block.kubejs.infused_goldium_block": "充能黄金水晶块",
-
-	"block.kubejs.grout": "水泥",
-
+	"block.kubejs.grout": "泥砖",
 	"block.kubejs.slimesteel_block": "黏钢块",
 	"block.kubejs.pigiron_block": "生铁块",
 	"block.kubejs.soulsteel_block": "魂钢块",
 	"block.kubejs.hepatizon_block": "黑色科林斯青铜块",
-
 	"block.kubejs.starmetal_ore": "星辉矿石",
 	"block.kubejs.mana_sand": "海蓝宝石页岩",
-
 	"block.kubejs.uwuterium_block": "§d乌特姆块",
 	"block.kubejs.osgloglas_block": "锇荧黑曜合金块",
-
 	"block.kubejs.darksteel_block": "玄钢块",
 	"block.kubejs.raw_arcane_block": "粗奥术矿块",
-
 	"block.kubejs.end_iridium": "末地铱矿石",
 
 	"#Compressed Logs": "压缩原木",
@@ -258,6 +257,16 @@
 	"block.kubejs.c_jungle": "压缩丛林原木",
 	"block.kubejs.c_mangrove": "压缩红树原木",
 	"block.kubejs.c_spruce": "压缩云杉原木",
+
+	"block.kubejs.c1_glass": "压缩玻璃（1x）",
+	"block.kubejs.c2_glass": "压缩玻璃（2x）",
+	"block.kubejs.c3_glass": "压缩玻璃（3x）",
+	"block.kubejs.c4_glass": "压缩玻璃（4x）",
+	"block.kubejs.c5_glass": "压缩玻璃（5x）",
+	"block.kubejs.c6_glass": "压缩玻璃（6x）",
+	"block.kubejs.c7_glass": "压缩玻璃（7x）",
+	"block.kubejs.c8_glass": "压缩玻璃（8x）",
+	"block.kubejs.c9_glass": "压缩玻璃（9x）",
 
 	"#Fluid": "流体",
 	"fluid.kubejs.molten_steel": "熔融钢",
